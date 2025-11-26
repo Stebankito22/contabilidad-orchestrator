@@ -1,0 +1,428 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ContabilidadOrchestrator",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Contabilidad/deuda/{clienteId}": {
+      "get": {
+        "tags": [
+          "Contabilidad"
+        ],
+        "parameters": [
+          {
+            "name": "clienteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaCliente"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaCliente"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaCliente"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Contabilidad/clientes": {
+      "get": {
+        "tags": [
+          "Contabilidad"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClienteResumen"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClienteResumen"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClienteResumen"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Contabilidad/facturas/vencidas": {
+      "get": {
+        "tags": [
+          "Contabilidad"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Factura"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Factura"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Factura"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Contabilidad/pagos/simular": {
+      "post": {
+        "tags": [
+          "Contabilidad"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PagoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PagoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PagoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Deuda/cliente/{clienteId}": {
+      "get": {
+        "tags": [
+          "Deuda"
+        ],
+        "parameters": [
+          {
+            "name": "clienteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaClienteApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaClienteApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaClienteApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Deuda/reporte/{clienteId}": {
+      "get": {
+        "tags": [
+          "Deuda"
+        ],
+        "parameters": [
+          {
+            "name": "clienteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaClienteApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaClienteApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeudaClienteApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ClienteResumen": {
+        "type": "object",
+        "properties": {
+          "clienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "deudaTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalFacturas": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estadoCredito": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeudaCliente": {
+        "type": "object",
+        "properties": {
+          "clienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalFacturado": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPagado": {
+            "type": "number",
+            "format": "double"
+          },
+          "deudaPendiente": {
+            "type": "number",
+            "format": "double"
+          },
+          "facturas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FacturaDetalle"
+            },
+            "nullable": true
+          },
+          "ultimaActualizacion": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeudaClienteApiResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/DeudaCliente"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Factura": {
+        "type": "object",
+        "properties": {
+          "facturaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "clienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "borrado": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FacturaDetalle": {
+        "type": "object",
+        "properties": {
+          "facturaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "montoFactura": {
+            "type": "number",
+            "format": "double"
+          },
+          "montoPagado": {
+            "type": "number",
+            "format": "double"
+          },
+          "saldoPendiente": {
+            "type": "number",
+            "format": "double"
+          },
+          "fechaEmision": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PagoRequest": {
+        "required": [
+          "facturaId"
+        ],
+        "type": "object",
+        "properties": {
+          "facturaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StringApiResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "string",
+            "nullable": true
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

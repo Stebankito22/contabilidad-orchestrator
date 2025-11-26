@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\railway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:railway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\contabilidadorchestrator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:contabilidadorchestrator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\services\\icontabilidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:services\\icontabilidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\controllers\\contabilidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:controllers\\contabilidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\pagorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\pagorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\controllers\\deudacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:controllers\\deudacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\clienteresumen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\clienteresumen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\facturadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\facturadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\deudacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\deudacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\pagofacturarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\pagofacturarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\reportecontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\reportecontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|e:\\array\\contabilidad\\contabilidadorchestrator\\models\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16E4986-9E6B-4876-88DA-6DD17655DB02}|ContabilidadOrchestrator.csproj|solutionrelative:models\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "railway.json",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\railway.json",
+              "RelativeDocumentMoniker": "railway.json",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\railway.json",
+              "RelativeToolTip": "railway.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-26T13:53:14.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IContabilidadService.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Services\\IContabilidadService.cs",
+              "RelativeDocumentMoniker": "Services\\IContabilidadService.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Services\\IContabilidadService.cs",
+              "RelativeToolTip": "Services\\IContabilidadService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAhwLgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:14:24.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "Models\\Factura.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\Factura.cs",
+              "RelativeToolTip": "Models\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:37:33.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeudaController.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Controllers\\DeudaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeudaController.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Controllers\\DeudaController.cs",
+              "RelativeToolTip": "Controllers\\DeudaController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:18:36.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeudaCliente.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\DeudaCliente.cs",
+              "RelativeDocumentMoniker": "Models\\DeudaCliente.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\DeudaCliente.cs",
+              "RelativeToolTip": "Models\\DeudaCliente.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:08:50.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:09:18.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\Pago.cs",
+              "RelativeDocumentMoniker": "Models\\Pago.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\Pago.cs",
+              "RelativeToolTip": "Models\\Pago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:08:16.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContabilidadController.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Controllers\\ContabilidadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContabilidadController.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Controllers\\ContabilidadController.cs",
+              "RelativeToolTip": "Controllers\\ContabilidadController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:56:05.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContabilidadOrchestrator",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\ContabilidadOrchestrator.csproj",
+              "RelativeDocumentMoniker": "ContabilidadOrchestrator.csproj",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\ContabilidadOrchestrator.csproj",
+              "RelativeToolTip": "ContabilidadOrchestrator.csproj",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-26T12:03:58.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:19:17.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClienteResumen.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\ClienteResumen.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteResumen.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\ClienteResumen.cs",
+              "RelativeToolTip": "Models\\ClienteResumen.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:39:31.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PagoFacturaRequest.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\PagoFacturaRequest.cs",
+              "RelativeDocumentMoniker": "Models\\PagoFacturaRequest.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\PagoFacturaRequest.cs",
+              "RelativeToolTip": "Models\\PagoFacturaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:43:08.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FacturaDetalle.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\FacturaDetalle.cs",
+              "RelativeDocumentMoniker": "Models\\FacturaDetalle.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\FacturaDetalle.cs",
+              "RelativeToolTip": "Models\\FacturaDetalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:39:59.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagoRequest.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\PagoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\PagoRequest.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\PagoRequest.cs",
+              "RelativeToolTip": "Models\\PagoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:42:24.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReporteContable.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\ReporteContable.cs",
+              "RelativeDocumentMoniker": "Models\\ReporteContable.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\ReporteContable.cs",
+              "RelativeToolTip": "Models\\ReporteContable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:42:39.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-26T12:26:37.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-26T12:26:39.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Facturacion.cs",
+              "DocumentMoniker": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\Facturacion.cs",
+              "RelativeDocumentMoniker": "Models\\Facturacion.cs",
+              "ToolTip": "E:\\Array\\Contabilidad\\ContabilidadOrchestrator\\Models\\Facturacion.cs",
+              "RelativeToolTip": "Models\\Facturacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:07:38.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 309,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
